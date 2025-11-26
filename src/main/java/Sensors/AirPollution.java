@@ -1,13 +1,14 @@
+package Sensors;
+
 import Feeds.EnvironmentalSystem;
 
 public class AirPollution {
-    private int wardID;
     private EnvironmentalSystem EnvSys;
 
 
-    public AirPollution( int wardID){
-        this.wardID = wardID;
-        EnvironmentalSystem EnvSys = new EnvironmentalSystem();
+    public AirPollution( ){
+
+        EnvSys = new EnvironmentalSystem();
 
     }
 

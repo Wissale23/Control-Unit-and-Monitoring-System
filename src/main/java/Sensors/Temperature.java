@@ -1,3 +1,5 @@
+package Sensors;
+
 import Feeds.EnvironmentalSystem;
 
 public class Temperature {
@@ -8,6 +10,10 @@ public class Temperature {
         this.wardID = wardID;
         EnvSys= new EnvironmentalSystem();
 
+    }
+
+    public int getWardID() {
+        return wardID;
     }
 
     public float getTemperature(){

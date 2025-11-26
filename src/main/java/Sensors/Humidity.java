@@ -1,12 +1,13 @@
+package Sensors;
+
 import Feeds.EnvironmentalSystem;
 
 public class Humidity {
 
-    private int wardID;
     private EnvironmentalSystem EnvSys;
 
-    public Humidity(int wardID){
-        this.wardID = wardID;
+    public Humidity(){
+        EnvSys = new EnvironmentalSystem();
     }
 
     public int getInsideHum(){
